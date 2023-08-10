@@ -8,7 +8,7 @@ public interface ISecurityService {
 	
 	public LoginResponseDto login(loginDto login);
 	
-	public boolean signUp(EmpSignUpDto empDto);
+	public LoginResponseDto signUp(EmpSignUpDto empDto);
 	
 	
 }
